@@ -18,10 +18,10 @@ build:
 
 requirements:
   host:
-    - python ==3.9
+    - python >=3.6
     - pip
   run:
-    - python ==3.9
+    - python >=3.6
     - tensorflow
     - protobuf ==3.20.0
     - scikit-learn
